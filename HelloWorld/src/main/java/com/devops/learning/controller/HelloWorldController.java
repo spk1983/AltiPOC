@@ -13,6 +13,6 @@ public class HelloWorldController {
  
  @RequestMapping("/hello")
  public String myData() {
- return "Hello Spring Boot";
+ return "Hello Spring Boot - Second Push";
  }
 }
