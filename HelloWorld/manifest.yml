@@ -1,0 +1,9 @@
+---
+applications:
+ - name: HelloWorld
+   memory: 1G
+   path: target/HelloWorld-0.0.1-SNAPSHOT.jar
+   instances: 1
+   env:
+    SPRING_PROFILES_ACTIVE: cloud
+   timeout: 179 			
